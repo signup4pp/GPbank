@@ -3,7 +3,7 @@
 // app.js (GET Version)
 // ===============================
 
-const API_URL = "https://script.google.com/macros/s/AKfycbw0kzELWSOMg8MXcuqtqzATQyeiib3oAOOFtEhg2G2xDk06Z22F40z4NLHVfZ0rD/exec";
+const API_URL = "https://script.google.com/macros/s/AKfycbw0kzELWSOMg8MXcuqtqzATJAtQyeiib3oAOOFtEhg2G2xDk06Z22F40z4NLHVfZ0rD/exec";
 
 const balance = document.getElementById("balance");
 const depositDate = document.getElementById("depositDate");
