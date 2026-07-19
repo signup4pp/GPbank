@@ -1,0 +1,52 @@
+*{box-sizing:border-box}
+body{
+margin:0;
+font-family:Arial,sans-serif;
+background:#f4f7f5;
+color:#222;
+}
+.container{
+max-width:420px;
+margin:0 auto;
+padding:20px;
+}
+.header{text-align:center;margin:10px 0 20px}
+.pig{font-size:52px}
+h1{margin:8px 0;font-size:28px}
+.balance-card,.card{
+background:#fff;
+border-radius:18px;
+padding:20px;
+margin-bottom:18px;
+box-shadow:0 4px 14px rgba(0,0,0,.08)
+}
+.title{color:#666;font-size:14px}
+.balance{
+font-size:42px;
+font-weight:700;
+color:#16a34a;
+margin-top:8px
+}
+label{display:block;margin:14px 0 6px;font-weight:600}
+input{
+width:100%;
+padding:14px;
+font-size:18px;
+border:1px solid #d8d8d8;
+border-radius:12px;
+}
+button{
+width:100%;
+margin-top:20px;
+padding:16px;
+font-size:18px;
+font-weight:bold;
+border:none;
+border-radius:12px;
+background:#16a34a;
+color:#fff;
+}
+button:active{transform:scale(.98)}
+.last-title{font-weight:bold}
+.last-amount{font-size:30px;color:#16a34a;margin-top:10px}
+.last-date{margin-top:6px;color:#666}
