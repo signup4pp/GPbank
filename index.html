@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gayathri's Piggy Bank</title>
+
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="style.css">
+
+<meta name="theme-color" content="#16a34a">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Piggy Bank">
+</head>
+
+<body>
+
+<div class="container">
+
+    <header class="header">
+        <div class="pig">🐷</div>
+        <h1>Gayathri's Piggy Bank</h1>
+    </header>
+
+    <section class="balance-card">
+        <div class="title">Current Balance</div>
+        <div id="balance" class="balance">₹0</div>
+    </section>
+
+    <section class="card">
+
+        <label for="depositDate">
+            Deposit Date
+        </label>
+
+        <input
+            type="date"
+            id="depositDate">
+
+        <label for="amount">
+            Amount
+        </label>
+
+        <input
+            type="number"
+            id="amount"
+            placeholder="Enter amount">
+
+        <button id="saveBtn">
+            Add Money
+        </button>
+
+    </section>
+
+    <section class="card">
+
+        <div class="last-title">
+            Last Deposit
+        </div>
+
+        <div id="lastAmount" class="last-amount">
+            ₹0
+        </div>
+
+        <div id="lastDate" class="last-date">
+            --
+        </div>
+
+    </section>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
